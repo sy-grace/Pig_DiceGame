@@ -1,7 +1,7 @@
 import random
 
 def roll():
-    return random.randint(1, 7)
+    return random.randint(1, 6)
 
 def turn(player, total_score, target):
     print(f"{player}'s turn!")
